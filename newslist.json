@@ -1,0 +1,40 @@
+{
+	"newslist":[
+		{
+			"id":1,
+			"title":"科普：新CPU都加量，内部高速缓存到底是干嘛的？",
+			"img":"https://ftp.chinafix.com/portal/202006/08/150251zimtuieeoqehdxj0.jpg",
+			"brief":"两家CPU厂商都在新U中大幅提升缓存的原因也很简单，新CPU的频率越来越高，线程也越来越多，工作能力有点“太”强大了，内存真的是越来越跟",
+			"tag":"电脑维护技巧"
+		},
+		{
+			"id":2,
+			"title":"为何新显示器点不亮？HDMI线版本有讲究",
+			"img":"https://ftp.chinafix.com/portal/202006/01/142334tfmg8qrz44gmmsi4.jpg",
+			"brief":"在用之前的HDMI连接时候大概都会碰上点不亮或者刷新率上不去的问题。很多人会下意识的拨弄一下接口、电源，甚至检查主机、升级显卡驱动，一",
+			"tag":"电脑维护技巧"
+		},
+		{
+			"id":3,
+			"title":"为什么有的电脑用了SSD还是卡？终于知道真相了",
+			"img":"https://ftp.chinafix.com/portal/202005/19/150917xmm88ws7l0dlwx6v.jpg",
+			"brief":"在很多人印象中，电脑换了固态硬盘=秒开应用+极速拷贝，但实际上却存在不少硬盘升级了，但速度提升没达到预期的案例，甚至还有升级SSD后还",
+			"tag":"电脑维护技巧"
+		},
+		{
+			"id":4,
+			"title":"windows11免费升级大有文章！没有TPM升级不了？解决方法看这里",
+			"img":"https://ftp.chinafix.com/forum/202106/30/091151pzckfxc83h78y7xe.jpg.thumb.jpg",
+			"brief":"Windows11可以免费升级体验哟！相信很多小伙伴们都是迫不及待地想体验一番！但没有TPM升级不了，很多本想提前尝鲜的用户却被挡在了门",
+			"tag":"电脑软件技巧"
+		},
+		{
+			"id":5,
+			"title":"SSD固态硬盘换新太昂贵，C盘爆满怎么办",
+			"img":"https://ftp.chinafix.com/forum/202004/16/154657ztjgj601qgjjbh2w.jpg",
+			"brief":"最近SSD的价格真是让人一言难尽，不过咱们可以给C盘减减负，能腾出点空间的话，坚持个把月甚至半年一年的，等待价格松动还是有可能的。",
+			"tag":"电脑使用技巧"
+		}
+		
+	]
+}

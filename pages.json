@@ -1,0 +1,243 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				
+			}
+		}
+	    ,{
+            "path" : "pages/order/order",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false,
+				"navigationBarTitleText": "预约"
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "enablePullDownRefresh": false,
+				"navigationBarTitleText": "用户"
+            }
+            
+        }
+        ,{
+            "path" : "pages/components/info/info",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预约详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/guide/guide",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "自助排查向导",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/guide/guide_01",
+            "style" : 
+            {
+                "navigationBarTitleText": "自助排查向导",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/guide/guide_11",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "自助排查向导",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/components/result/result",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "自助排查向导",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/guide/guide_12",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "自助排查向导",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/guide/guide_21",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "自助排查向导",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/newslist/newslist",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "维修资讯",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/components/newsinfo/newsinfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/support/support",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "帮助支持",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/ordermenu/ordermenu",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "预约维修",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/ordermenu/orderdetail/orderdetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "项目详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/ordermenu/createinfo/createinfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "填写信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/statfinder/statfinder",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "状态查询",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/components/fixiteminfo/fixiteminfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "详细信息",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/addressmod/addressmod",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的常用地址",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/suggest/suggest",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "投诉建议",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/my/myinfo/myinfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/about/about",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "关于我们",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "捷修",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar":{
+		"borderStyle":"black",
+		"color":"#444444",
+		"selectedColor":"#2980E3",
+		"list":[{
+			"pagePath":"pages/index/index",
+			"iconPath":"static/tabbar/index.png",
+			"selectedIconPath":"./static/tabbar/indexsel.png",
+			"text":"主页"
+		},{
+			"pagePath":"pages/order/order",
+			"iconPath":"./static/tabbar/tool.png",
+			"selectedIconPath":"static/tabbar/toolsel.png",
+			"text":"预约"
+		},{
+			"pagePath":"pages/my/my",
+			"iconPath":"static/tabbar/my.png",
+			"selectedIconPath":"static/tabbar/mysel.png",
+			"text":"用户"
+		}]
+	},
+	"condition":{
+		    "current": 0, //当前激活的模式（list 的索引项）
+		    "list": [
+				{
+					"name": "正常", //模式名称
+					"path": "pages/index/index" //启动页面，必选
+				},
+				{
+					"name": "我要直接看新闻详情",
+					"path": "pages/components/newsinfo/newsinfo" //启动页面，必选
+				},
+				{
+					"name": "关于我们",
+					"path": "pages/about/about" //启动页面，必选
+				}
+		]
+	}
+}
